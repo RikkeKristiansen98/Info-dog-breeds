@@ -1,0 +1,91 @@
+
+/* Styling för första paragrafen */
+#firstP {
+    margin-top: 100px;
+    color: black;
+}
+p {
+    text-align: center;
+}
+h1{
+    margin-top: 30px;
+    text-align: center;
+    color: black; 
+}
+
+#dogImage {
+    border: solid rgb(0, 0, 0) 5px; 
+        display: block;
+        margin: 5px auto;
+}
+
+/* Styling för dropdown menyn */
+select {
+    display: block;
+    margin: 0 auto;
+    }
+
+    body {
+        background-image: url("https://img.freepik.com/free-vector/frame-with-dogs-white-background_53876-99295.jpg?w=996&t=st=1699613256~exp=1699613856~hmac=aaddfdd452de0055517cbcb22b03700cd09be13b2197d8d710096c2ef6e0543e");
+        background-repeat: no-repeat;
+        background-size: 100%
+    }
+
+    .image-slider{
+        display: flex;
+        justify-content: center;
+        overflow-x: auto;
+        white-space: nowrap;
+        }
+    
+    .image-slider img {
+        width: 400px; 
+        height: auto;
+        margin: 10px;
+        border: solid 5px black;
+    }
+    
+    #loadImgBtn {
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+
+    @media only screen and (max-width:  992px) {
+        body {
+            background-image: url("https://img.freepik.com/free-vector/paper-sheet-with-dogs-grid-background_53876-112523.jpg?w=740&t=st=1699644336~exp=1699644936~hmac=0352f1c6666ddaf94f038637868480ba1ce99205f1ccd229c673e130233463ba");
+            background-repeat: no-repeat;
+            background-size: 100%
+        }
+        h1{
+            margin-top: 40px;
+            text-align: center;
+            color: black; 
+        }
+        #dogImage{
+            width: 300px;
+                }
+        .image-slider img {
+            width: 250px; 
+            height: auto;
+            margin-right: 10px;
+            border: solid 5px black; 
+    }
+
+
+    @media only screen and (max-width: 768px) {
+        body {
+            background-image: url("https://img.freepik.com/free-vector/paper-sheet-with-dogs-grid-background_53876-112523.jpg?w=740&t=st=1699644336~exp=1699644936~hmac=0352f1c6666ddaf94f038637868480ba1ce99205f1ccd229c673e130233463ba");
+            background-repeat: no-repeat;
+            background-size: 100%
+        }
+        #dogImage{
+            width: 300px;
+                }
+        .image-slider img {
+            width: 200px; 
+            height: auto;
+            margin-right: 10px;
+            border: solid 5px black;
+        }}}
